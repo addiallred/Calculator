@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../2_functioning_keys/style.css">
+	</head>
+	<script>
+		function myFunction(value){
+			if(value == 'C')
+			{
+				document.getElementById("userinput").innerHTML = "";
+				return;
+			}
+			else if(value == '=')
+			{
+				string = eval(document.getElementById("userinput").innerHTML);
+				document.getElementById("userinput").innerHTML = string;
+				return;
+			}
+			document.getElementById("userinput").innerHTML += value;
+		}
+	</script>
+	<body>
+		<div id="userinput"></div>
+		<div>
+			<button onclick="myFunction(1)">1</button>
+			<button onclick="myFunction(2)">2</button>
+			<button onclick="myFunction(3)">3</button>
+			<button onclick="myFunction(4)">4</button>
+			<button onclick="myFunction(5)">5</button>
+			<button onclick="myFunction(6)">6</button>
+			<button onclick="myFunction(7)">7</button>
+			<button onclick="myFunction(8)">8</button>
+			<button onclick="myFunction(9)">9</button>
+			<button onclick="myFunction(0)">0</button>
+			<button onclick="myFunction('+')">+</button>
+			<button onclick="myFunction('-')">-</button>
+			<button onclick="myFunction('*')">*</button>
+			<button onclick="myFunction('/')">/</button>
+			<button onclick="myFunction('C')">C</button>
+			<button onclick="myFunction('=')">=</button>
+		</div>
+	</body>
+</html>		
