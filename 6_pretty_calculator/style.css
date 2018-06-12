@@ -1,0 +1,96 @@
+*{
+
+}
+script{
+	display: none;
+}
+.calculator{
+
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 10px;
+	background-color: #146FF9;
+	width: 400px;
+	height: 564px;
+}
+#userinput{
+	padding-top: 50px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: right;
+	font-size: 80px;
+	color: white;
+	background-color: #146FF9;
+	width: 400px;
+	height: 100px;
+	border: 2px solid #146FF9;
+}
+#clear{
+	border-top-left-radius: 10px;
+}
+#plus{
+	border-bottom-right-radius: 10px;
+}
+#period{
+	border-bottom-left-radius: 10px;
+}
+.numbers button{
+	padding-left: 35px;
+	padding-top: 20px;
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	font-size:50px;
+	height: 100px;
+	width: 100px;
+	color: white;
+	background-color: #146FF9;
+	border: 1px solid #146FF9;
+}
+.numbers{
+	float: left;
+	width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+}
+.numbers button:hover{
+
+	display: inline-table;
+	background-color: white;
+	color: #146FF9;
+	border: white;
+}
+.operators{
+	float: left;
+	width: 100px;
+}
+.operators button{
+	padding-left:48px;
+	padding-top: 19px;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+	font-size: 35px;
+	height: 82px;
+	width: 104px;
+	color: #146FF9;
+	background-color: #11253F;
+	border: 1px solid #11253F;
+}
+.operators button:hover{
+	background-color: #21C0FC;
+	color: white;
+	border-color: #21C0FC;
+}
+button{
+	width: 50px;
+}
+
+
+
+
+
+
+
